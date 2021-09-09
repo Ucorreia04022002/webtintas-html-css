@@ -1,0 +1,61 @@
+.cabecalho{
+    text-align: center;
+    text-transform: uppercase;
+}
+.cabecalho__logo{
+    width: 14.5em;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: blue;
+}
+.cabecalho__menu--lista{
+    text-align: center;
+    margin-top: 2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-decoration: solid;
+    padding-inline-start:0%;
+}
+.cabecalho__menu--item{
+    font-size: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:	wrap;
+    background-color: coral;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.cabecalho__menu--item a{
+    color: inherit;
+    padding: 1rem 0.5rem ;
+    text-decoration: inherit;
+}
+.cabecalho__menu--cadastre-se{
+    background-color: blue;
+}
+@media	(min-width: 640px){
+    .cabecalho{
+        text-align: unset;
+        display: flex;
+        justify-content: space-between;
+    }
+    .cabecalho__logo{
+        width: 7.5em;
+        display: inline-block;
+    }
+    .cabecalho__menu--lista{
+        display: flex;
+    }
+    .cabecalho__menu--item{
+        margin-left: 5px;
+    }
+    .cabecalho__menu--item a{
+        padding: 0.5rem 0.3rem;
+        font-size: 1em;
+        align-items: baseline;
+    }
+    .cabecalho__menu--item-empresa,.cabecalho__menu--item-contato{
+        padding-top: 7px;
+    }
+}

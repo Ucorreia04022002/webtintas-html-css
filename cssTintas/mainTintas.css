@@ -1,0 +1,183 @@
+.main{
+    width: 100%;
+}
+.main__sobrenos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.main__sobrenos--titulo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1.0px;
+    border: 5px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-color: blue;
+    border-radius: 5px;
+    transition: .25s;
+}
+.main__sobrenos--titulo-empresas{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1.0px;
+    border: 5px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-color: blue;
+    border-radius: 5px;
+    transition: .25s;
+}
+.main__sobrenos--texto{
+    padding: 5px;
+    border: 5px;
+    transition: .25s;
+    background-color: aliceblue;
+    border-color: blue;
+    border-radius: 5px;
+    font-size: 150%;
+}
+.main__listaempresas--titulo-lukscolor{
+    width: 35%;
+    padding: 3px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: aliceblue;
+    border-color: blue;
+    border-radius: 5px;
+}
+.main__listaempresas--titulo-coral{
+    width: 25%;
+    padding: 3px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: aliceblue;
+    border-color: blue;
+    border-radius: 5px;
+}
+.main__listaempresas--titulo-brazilux{
+    width: 20%;
+    padding: 3px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: aliceblue;
+    border-color: blue;
+    border-radius: 5px;
+}
+.main__listaempresas--imagem{
+    width: 100%;
+    border-color: rgb(95, 30, 180);
+    border-radius: 15px;
+}
+.main__listaempresas--divbotao{
+    display: flex;
+    justify-content: center;
+}
+.main__listaempresas--botao{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.0rem;
+    font-weight: 500;
+    color: rgb(30, 30, 49);
+    border: 01.5rem;
+    border-color: aliceblue;
+    border-radius: 15px;
+    background-color: orange;
+    margin: 1.5rem 2rem 1.5rem 2rem;
+    padding: 0.8rem;
+}
+.main__deixeseuemail{
+    text-align: center;
+    padding: 2rem 2rem;
+    background-color: rgb(228, 141, 60) ;
+    border-radius: 15px;
+}
+.main__deixeseuemail--titulo{
+    text-align: center;
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main__deixeseuemail--texto{
+    font-weight: 600;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 1.5em;
+    border-radius: 10px;
+}
+.main__deixeseuemail--input{
+    padding: 11px;
+    border: 4px;
+    border-radius: 8px;
+    border-color: aqua;
+}
+.main__deixeseuemail--botao{
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 8px;
+    letter-spacing: 1.2;
+    font-size: 0.9em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding: 0.6rem;
+    margin-top: 7px;
+}
+.main__contato{
+    margin-top: 2rem;
+    text-align: center;
+    padding: 2rem 2rem;
+    background-color: rgb(238, 231, 237) ;
+    border-radius: 15px;
+}
+.main__contato--textoendereco{
+    font-size: 1.2rem;
+}
+@media	(min-width: 640px){
+    .main__sobrenos{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main__sobrenos--titulo-empresas{
+        letter-spacing: 0.3px;
+        padding: 5px;
+        width: min-content;
+        margin-bottom: 30px
+    }
+    .main__sobrenos--texto{
+        margin-left: 1rem;
+        font-size: 120%;
+        padding: 0.6em;
+        text-align: center;
+    }
+    .main__deixeseuemail--titulo{
+        font-weight: 800;
+    }
+    .main__deixeseuemail--input{
+        padding: 8px;
+    }
+    .main__deixeseuemail--botao{
+        margin-top: 4px;
+    }
+    .main__deixeseuemail{
+        background-color: orange;
+        padding: 0.2rem 0.4rem;
+        width: 50%;
+    }
+    .main__contato{
+        background-color: orange;
+        padding: 1.2rem 1rem;
+        width: 45%;
+        justify-content: flex-start;
+    }
+    .main__contato--textoendereco{
+        padding: 1.5em;
+        background-color: aliceblue;
+        border-radius: 10px;
+    }
+    .ajuste{
+        display: flex;
+        justify-content: space-between;
+        background-color: orange;
+        border-radius: 15px;
+    }
+}

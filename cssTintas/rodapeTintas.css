@@ -1,0 +1,30 @@
+.rodape{
+    margin-top: 2rem;
+    padding: 32px;
+    background-color: fff;
+    border-radius: 15px;
+    text-align: center;
+}
+.rodape--imagem{
+    width: 7.5em;
+    border-radius: 5px;
+}
+.rodape--cookies{
+    margin-top: 16px;
+    font-family: Open Sans,sans-serif;
+}
+.rodape--copyright{
+    font-family: Open Sans,sans-serif;
+}
+@media	(min-width: 640px){
+    .rodape{
+        text-align: left;
+        
+    }
+    .rodape--cookies{
+        font-size: 1.3rem;
+    }
+    .rodape--copyright{
+        font-size: 1.3rem;    
+    }
+}
